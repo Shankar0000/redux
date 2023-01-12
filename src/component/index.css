@@ -11,6 +11,16 @@
   background-color: #fff;
 
 }
+
+
+.card_img{
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #fff;
+  height: 400px;
+}
+
 .card{
   margin: 6%;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.1);
@@ -31,7 +41,6 @@
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   background-color: #fff;
-  height: 400px;
 }
 
 .card_inf{
@@ -55,10 +64,9 @@
 }
 
 .button1{
-  background-color: #fff;
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: rgb(39, 36, 36);
+  background-color: rgb(37, 37, 37);
   color: white;
   border: none;
   cursor: pointer;
@@ -189,16 +197,4 @@
 }
 .ancher a:hover{
   text-decoration: underline;
-}
-
-.button4 a{
-  padding: 7px 15px;
-  text-decoration: none;
-  border: 1px solid gray;
-  color: white;
-  margin-right: 50px;
-  float: left;
-  border-radius: 5px;
-}
-.button4 a:hover{
 }
