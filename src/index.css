@@ -26,4 +26,13 @@ button:hover{
 .add{
     float: right;
     display: block;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.count{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    color: white;
 }

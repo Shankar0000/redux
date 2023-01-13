@@ -2,6 +2,9 @@ import { ADD_TO_CART } from "../constant"
 import { REMOVE_FROM_CART } from "../constant1"
 
 const addToCart = (data) => {
+
+    console.warn('action', data)
+
     return{
         type: ADD_TO_CART,
         data:data

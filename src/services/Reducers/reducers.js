@@ -6,14 +6,14 @@ const initialState = {
     ]
 }
 
-const cartItems = (state=initialState,action) => {
-    switch(action.type){
+const cartItems = (state=[],action) => {
+    switch (action.type){
         case ADD_TO_CART:
-            return{
+            // console.warn('reducer',action)
+            return[ 
                 ...state,
-                cartData:action.data
-            }
-            break;
+                {cartData:action.data}
+            ]
             default:
                 return state
 
@@ -21,3 +21,24 @@ const cartItems = (state=initialState,action) => {
 }
 
 export default cartItems;
+
+
+
+// import { ADD_TO_CART } from '../constants'
+// const initialState = {
+//     cardData: []
+// }
+// export default function cardItems(state = [], action) {
+//     switch (action.type) {
+//         case ADD_TO_CART:
+//             // console.warn("reducer",action)
+//             return [
+//                 ...state,
+//                 {cardData: action.data}
+//             ]
+//         default:
+//             return state
+//     }
+
+
+// }
